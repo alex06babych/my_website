@@ -1,0 +1,100 @@
+baseurl = "/"
+title = "Oleksandr Babych"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+theme = "hugo-coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Oleksandr Babych"
+    description = "Oleksandr Babych's personal website"
+    keywords = "blog,programmer,personal"
+    info = "STATISTICAL PROGRAMMER/ANALYST"
+    avatarurl = "images/alex.jpg"
+    footercontent = " "
+    fixedbarContent = "Do you want to know more about me? →"
+    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+
+    hideCredits = true
+    hideCopyright = false
+
+    # Bottom sns share
+    snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = false
+    enableFacebookShare = true
+    enableHatenaShare = false
+    enableLineShare = false
+    enableLinkedInShare = true
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://join.skype.com/invite/dZfrSXwbDxZZ"
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook-f"
+    weight = 2
+    url = "https://www.facebook.com/babich.ae/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/oleksandr-babych-777b00170/"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Oleksandr Babych"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Oleksandr Babych"
+            info = "Statistical Programmer/Analyst"
+            description = "Oleksandr Babych's personal website"
+            keywords = "blog,programmer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+
+            [[languages.en.menu.main]]
+                name = "Slides"
+                weight = 3.0
+                url = "slides"
+
+                
+            [[languages.en.menu.main]]
+                name = "Contact me"
+                weight = 5
+                url = "contact"
+
